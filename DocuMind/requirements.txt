@@ -1,0 +1,20 @@
+# ── Core Framework ──────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── PDF Processing ───────────────────────────────────────────────────────────
+PyMuPDF>=1.24.0          # import pymupdf — fast PDF text + page extraction
+
+# ── Text Embeddings ──────────────────────────────────────────────────────────
+sentence-transformers>=3.0.0   # all-MiniLM-L6-v2 and friends
+torch>=2.2.0                   # required by sentence-transformers
+
+# ── Vector Store ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0               # CPU-only FAISS (no GPU needed)
+
+# ── LLM Integration ──────────────────────────────────────────────────────────
+google-genai>=1.0.0            # Official Google Gen AI SDK (replaces google-generativeai)
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0           # load .env for API keys
+numpy>=1.26.0
+tqdm>=4.66.0
